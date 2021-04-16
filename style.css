@@ -26,3 +26,17 @@ header{
 .mouse{
   padding-left: 570px;
 }
+.section2{
+  text-align:center!important;
+  padding-top: 25px;
+}
+.background2{
+  background-image: url("./images/bg/s_image.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.paragraph2{
+  text-align:center!important;
+  color: aliceblue;
+  padding-top: 100px;
+}
