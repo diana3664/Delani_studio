@@ -47,6 +47,9 @@ header{
   padding-left: 110px;
   padding-top: 20px;
 }
-.style{
- 
+.contacts{
+  background-image: url("./images/bg/c_image.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 450px;
 }
