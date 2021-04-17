@@ -57,3 +57,10 @@ header{
   color: white;
   opacity: 1; /* Firefox */
 }
+.footer{
+  padding-left: 150px;
+}
+.paragraphLast{
+  text-align:center!important;
+  padding-top: 20px;
+}
