@@ -64,3 +64,7 @@ header{
   text-align:center!important;
   padding-top: 20px;
 }
+.design{
+  text-align:center !important;
+  display:none;
+}
