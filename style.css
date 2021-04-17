@@ -5,9 +5,12 @@ header{
   height: 500PX;
 }
 .one{
-  padding-top: 110px
+  padding-top: 110px;
+  text-align: center!important;
+  color: aliceblue;
 }
-.logo{
+
+/* .logo{
   padding-left: 540px;
 
 }
@@ -25,7 +28,7 @@ header{
 }
 .mouse{
   padding-left: 570px;
-}
+} */
 .section2{
   text-align:center!important;
   padding-top: 25px;
@@ -43,4 +46,7 @@ header{
 #services{
   padding-left: 110px;
   padding-top: 20px;
+}
+.style{
+  
 }
