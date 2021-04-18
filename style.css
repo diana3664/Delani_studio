@@ -74,3 +74,6 @@ header{
 #services3{
   position:static;
 }
+#development{
+  display:none;
+}
