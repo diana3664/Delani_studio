@@ -70,6 +70,39 @@ header{
   display:none;
   text-align:center!important;
 }
-#product-managment{
+#product-management{
   display:none;
+  text-align: center!important;
+}
+.black-panther{
+  display:none;
+}
+.image1{
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.ussd{
+  display:none;
+}
+#short-code{
+  display:none;
+}
+#bulk-sms{
+  display:none;
+}
+#website-development{
+  display:none;
+}
+#payment-solution{
+  display:none;
+}
+#api{
+  display:none;
+}
+#whatsapp-solution{
+  display:none;
+}
+.style{
+  padding-left: 70px;
 }
