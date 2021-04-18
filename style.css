@@ -43,10 +43,7 @@ header{
   color: aliceblue;
   padding-top: 100px;
 }
-#services{
-  padding-left: 110px;
-  padding-top: 20px;
-}
+
 .contacts{
   background-image: url("./images/bg/c_image.jpg");
   background-position: center;
@@ -64,7 +61,16 @@ header{
   text-align:center!important;
   padding-top: 20px;
 }
-.design{
+#design{
   text-align:center !important;
   display:none;
+}
+#services1{
+  position:static;
+}
+#services2{
+  position:static;
+}
+#services3{
+  position:static;
 }
