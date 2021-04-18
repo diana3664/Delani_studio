@@ -65,15 +65,11 @@ header{
   text-align:center !important;
   display:none;
 }
-#services1{
-  position:static;
-}
-#services2{
-  position:static;
-}
-#services3{
-  position:static;
-}
+
 #development{
+  display:none;
+  text-align:center!important;
+}
+#product-managment{
   display:none;
 }
