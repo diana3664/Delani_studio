@@ -8,28 +8,7 @@ header{
   padding-top: 110px;
   text-align: center!important;
   color: aliceblue;
-}
-
-/* .logo{
-  padding-left: 540px;
-
-}
-.motto{
-  padding-left: 400px;
-  color:aliceblue
-}
-.welcome{
-  padding-left: 90px;
-}
-.paragraph1{
-  padding-left: 355px;
-  color:aliceblue;
-  font-size:12px
-}
-.mouse{
-  padding-left: 570px;
-} */
-.section2{
+}.section2{
   text-align:center!important;
   padding-top: 25px;
 }
@@ -74,64 +53,38 @@ header{
   display:none;
   text-align: center!important;
 }
-/* .black-panther{
-  display:none;
-} */
-.image1{
-  display: block;
-  width: 200px;
-  height: 200px;
+#portfolio{
+  /* background-color:brown; */
+  padding: 20px;
+  margin: 20px 0;
+  
 }
-.ussd{
-  display:none;
-}
-#short-code{
-  display:none;
-}
-#bulk-sms{
-  display:none;
-}
-#website-development{
-  display:none;
-}
-#payment-solution{
-  display:none;
-}
-#api{
-  display:none;
-}
-#whatsapp-solution{
-  display:none;
-}
-.style{
-  padding-left: 70px;
+#portfolio>.container>.row img{
+  margin: 20px auto;
 }
 .col-md-3{
   position: relative;
-  width: 50%;
-  max-width: 300px;
+  overflow-y: hidden;
 }
-button{
-  margin-left: 200px;
-}
-.overlay {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
-  width: 200px;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  bottom: 50%;
-}
-.container:hover .overlay {
-  opacity: 1;
-}
-.container:hover .overlay .ussd{
-  opacity: 0;
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
+
+#p-text{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.596);
+  padding: 40px;
+  border: 5px solid white;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

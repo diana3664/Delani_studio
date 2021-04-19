@@ -29,19 +29,16 @@ $(document).ready(function() {
     $("#product-management").click(function(){
         $("#services3").slideDown()
         $("#product-management").slideUp().hide();
-    })
-  })
-})
-
-$(document).ready(function(){
-  $("#hover1").mouseover(function(){
-    $("#black-panther,#style").show();
-  }).mouseout(function(){
-    $("#black-panther").hide();
+    });
   });
 });
 
 // portfolio
+$(document).ready(function() {
+$(".image7").hover(function(){
+  $("#api").show();(300);
+});
+});
 
 $(document).ready(function(){
   $("form#form").submit(function(event){
